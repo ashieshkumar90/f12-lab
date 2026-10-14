@@ -92,7 +92,7 @@ For a step-by-step explanation and live demonstration, watch the tutorial on **f
 
 **YouTube Channel:** https://www.youtube.com/@f12-lab
 
-**Tutorial Video:**
+**Tutorial Video:** https://youtu.be/4-VcNPlkEQI
 
 ---
 
