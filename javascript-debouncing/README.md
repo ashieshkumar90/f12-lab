@@ -105,7 +105,7 @@ usernameInput.addEventListener("input", (event) => {
 ## Tutorial and source
 
 - YouTube channel: **f12-lab**
-- Debouncing video: **[]**
+- Debouncing video: **https://youtu.be/yQSTFpAGcxk**
 - Related Throttling tutorial: **https://youtu.be/4-VcNPlkEQI**
 
 ## Limitations
