@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign Up | f12-lab</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="background-glow" aria-hidden="true"></div>
+  <div class="scenario-label"><span class="status-dot"></span> SCENARIO</div>
+  <div class="brand">f12-lab</div>
+
+  <main class="page-content">
+    <section class="signup-card" aria-labelledby="signup-title">
+      <h1 id="signup-title">Create your account</h1>
+      <p class="subtitle">Join in a few seconds</p>
+      <form id="signup-form" novalidate>
+        <div class="form-field">
+          <label for="username">Username</label>
+          <input id="username" name="username" type="text" placeholder="choose a username" autocomplete="off" spellcheck="false" />
+          <p class="username-status" id="username-status" aria-live="polite"></p>
+        </div>
+        <div class="form-field">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="you@example.com" autocomplete="email" />
+        </div>
+        <div class="form-field">
+          <label for="password">Password</label>
+          <input id="password" name="password" type="password" placeholder="••••••••" autocomplete="new-password" />
+        </div>
+        <button class="signup-button" type="submit">Sign Up</button>
+      </form>
+      <p class="login-text">Already have an account? <a href="#" id="login-link">Log in</a></p>
+    </section>
+  </main>
+  <script src="with-debouncing.js"></script>
+</body>
+</html>
